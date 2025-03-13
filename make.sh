@@ -30,4 +30,4 @@ else # else (make is not installed), compile FluidX3D with a single CPU core
 	esac
 fi
 
-if [[ $? == 0 ]]; then bin/FluidX3D "$@"; fi # run FluidX3D only if last compilation was successful
+#if [[ $? == 0 ]]; then bin/FluidX3D "$@"; fi # run FluidX3D only if last compilation was successful
