@@ -81,7 +81,7 @@
 
 
 
-/*void main_setup() { // Poiseuille flow validation; required extensions in defines.hpp: VOLUME_FORCE
+void main_setup() { // Poiseuille flow validation; required extensions in defines.hpp: VOLUME_FORCE
 	// ################################################################## define simulation box size, viscosity and volume force ###################################################################
 	const uint R = 63u; // channel radius (default: 63)
 	const float umax = 0.1f; // maximum velocity in channel center (must be < 0.57735027f)
@@ -233,7 +233,7 @@
 
 
 
-void main_setup() { // lid-driven cavity; required extensions in defines.hpp: MOVING_BOUNDARIES, INTERACTIVE_GRAPHICS
+/*void main_setup() { // lid-driven cavity; required extensions in defines.hpp: MOVING_BOUNDARIES, INTERACTIVE_GRAPHICS
 	// ################################################################## define simulation box size, viscosity and volume force ###################################################################
 	const uint L = 128u;
 	const float Re = 1000.0f;
